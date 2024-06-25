@@ -1,0 +1,106 @@
+.line li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(216, 148, 152);
+}
+.line li:hover{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(142, 59, 64);
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 180px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 68, 229);
+}
+.links a:hover{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 180px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 20, 45);
+}
+.blocks div{
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgb(221, 29, 42);
+}
+.blocks{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div .non{
+    display: none;
+}
+.links-markers a{
+    display: list-item;
+    padding: 10px;
+    width: 180px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 13, 13);
+}
+.image{
+    width: 100px;
+    height: 90px;
+    background-size: cover;
+    border: 2px dashed rgb(244, 6, 6);
+    background-image: url(./img/weather-sun.jpg);
+}
+.post1 .image{
+    float: left;
+    margin-right: 20px;
+}
+.post2 .image{
+    float: right;
+    margin-left: 20px;
+}
+.post1, .post2{
+    background-color: #930303;
+}
+.post1, .post2 div, h2{
+    color: white;
+}
+.a{
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    background-size: cover;
+}
+.image1{
+    background-image: url(./img/weather-sun.jpg);
+    margin-left: 60px;
+}
+.image2{
+    background-image: url(./img/weather-snow.jpg);
+}
+.image3{
+    background-image: url(./img/weather-blizzard.jpg);
+}
+.date li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 115, 145);
+
+}
+.temp li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+}

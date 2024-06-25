@@ -1,0 +1,56 @@
+
+.news {
+    width: 40%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+
+}
+.comp {
+    width: 40%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.inter {
+    width: 40%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.photo {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 7px; /* Отступы вокруг картинки */
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+* {
+    font-family: Roboto;
+}
+h2 {
+    padding: 10px;
+}
+p {
+    padding: 10px;
+}
+.podrob {
+    text-align: right;
+    padding: 40px
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background:   linear-gradient(to right,  black, rgb(255, 255, 255));
+    width: 100%;
+    height: 50px;
+    text-align: start;
+    justify-content: center;
+}
+li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.stone {
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 500px;
+    border: thin solid rgb(165, 165, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
+}
+article p {
+    color: gray;
+}
+article h3 {
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 200px;
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+header h2 {
+    font-size: xx-large;
+    font-weight: 900;
+}
+header p {
+    color:gray;
+    font-weight: 600;
+    margin-top: 0;
+}
+img {
+    width: 100px;
+}
+section {
+    display: flex;
+    gap: 10px;
+}

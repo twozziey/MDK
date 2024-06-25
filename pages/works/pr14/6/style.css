@@ -1,0 +1,17 @@
+
+    .box {   
+        background: #ff0000;   
+        border-radius: 6px;   
+        cursor: pointer;   
+        height: 95px;   
+        line-height: 95px;   
+        text-align: center;   
+        width: 95px; 
+        /*эти свойства реализуют трансформацию:*/
+        transition-property: background;    /*свойство, которое будем менять*/
+        transition-duration: 3s;            /*длительность изменений*/
+        transition-timing-function: linear; /*вид изменений*/   
+    } 
+    .box:hover { 
+      background: #002aff; 
+    } 
